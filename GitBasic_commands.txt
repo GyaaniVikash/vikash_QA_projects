@@ -3,5 +3,10 @@ git remote add origin "repository URL"
 git remote show origin   //to check current git points 
 git remote pull master   //to pull anything from GitHub
 git status //files yet to commit in git(local)
-git add //to add file to index
-git commit //to add file from index to git repository
+git add filename.txt //to add file to index
+git commit -m //to add file from index to git repository
+
+To add multiple files
+git status  //to check latest files to be commited
+git add -A  //to add files to index
+git commit -a -m "add comment"
