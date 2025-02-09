@@ -1,12 +1,21 @@
 git init - to initiate local repository
-git remote add origin "repository URL"
-git remote show origin   //to check current git points 
-git remote pull master   //to pull anything from GitHub
-git status //files yet to commit in git(local)
-git add filename.txt //to add file to index
-git commit -m //to add file from index to git repository
+git remote add origin "repository URL" 
+git remote show origin   -> to check current git points 
+git remote pull master  ->to pull anything from GitHub
+git status ->files yet to commit in git(local)
+git add filename.txt ->to add file to index
+git commit -m "message"->to add file from index to git repository
 
 To add multiple files
-git status  //to check latest files to be commited
+git status  //to check latest files to be committed
 git add -A  //to add files to index
 git commit -a -m "add comment"
+
+git checkout -b "branch name" ->  creates new branch
+git branch                   ->  lists all branches
+git checkout "branch name"    ->  switches to your branch
+git push origin "branch name" ->  Pushes to your branch
+git add */filename           -> Stages *(All files) or by given file name
+git commit -m "commit message" -> Commits staged files
+git push                     -> Pushes to your current branch
+git log                      -> to check previous commands
